@@ -1,6 +1,6 @@
 {
-    "name": "drupalninja/openchurch-project",
-    "description": "Full composer project template for the OpenChurch distribution.",
+    "name": "jaysun69/drupal10-project",
+    "description": "Full composer project template",
     "type": "drupal-profile",
     "license": "GPL-2.0-or-later",
     "homepage": "https://www.drupal.org/project/openchurch",
