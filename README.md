@@ -1,7 +1,7 @@
 ## Overview
 This composer project is used for testing the OpenChurch install profile for Drupal 10+.
 
-Gitpod link: https://gitpod.io/#https://github.com/drupalninja/openchurch-project/
+Gitpod link: https://gitpod.io/#https://github.com/jaysun69/drupal10-project/
 
 ## Quick start
 
