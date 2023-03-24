@@ -11,9 +11,9 @@ tasks:
       ddev start -y
       ddev composer install
       ddev . drush si -y
-      ddev . drush en -y openchurch_core
-      ddev . drush theme:enable openchurch_theme
-      ddev . drush config-set -y system.theme default openchurch_theme
+#      ddev . drush en -y openchurch_core
+#      ddev . drush theme:enable openchurch_theme
+#      ddev . drush config-set -y system.theme default openchurch_theme
     command: |
       ddev start -y
       gp ports await 8080 && gp preview $(gp url 8080)
