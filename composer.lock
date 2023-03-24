@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf8a230903e1b455dfcf59ec02c647ea",
+    "content-hash": "f7bb28a94f6ad849650b0b8a87ebd94e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -125,16 +125,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v2.2.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35"
+                "reference": "2a9170263fcd9cc4fd0b50917293c21d6c1a5bfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/c29dc4b93137acb82734f672c37e029dfbd95b35",
-                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "url": "https://api.github.com/repos/composer/installers/zipball/2a9170263fcd9cc4fd0b50917293c21d6c1a5bfe",
+                "reference": "2a9170263fcd9cc4fd0b50917293c21d6c1a5bfe",
                 "shasum": ""
             },
             "require": {
@@ -149,6 +149,7 @@
                 "symfony/phpunit-bridge": "^5.3",
                 "symfony/process": "^5"
             },
+            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "Composer\\Installers\\Plugin",
@@ -250,7 +251,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v2.2.0"
+                "source": "https://github.com/composer/installers/tree/main"
             },
             "funding": [
                 {
@@ -266,7 +267,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-20T06:45:11+00:00"
+            "time": "2022-10-12T12:07:30+00:00"
         },
         {
             "name": "composer/semver",
@@ -1618,16 +1619,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "10.0.5",
+            "version": "10.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "dad1e9f8e98bd7818ffc37b41cf4d7e483048b43"
+                "reference": "d9fe0494de876ede8f778041212fcb02bb70591a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/dad1e9f8e98bd7818ffc37b41cf4d7e483048b43",
-                "reference": "dad1e9f8e98bd7818ffc37b41cf4d7e483048b43",
+                "url": "https://api.github.com/repos/drupal/core/zipball/d9fe0494de876ede8f778041212fcb02bb70591a",
+                "reference": "d9fe0494de876ede8f778041212fcb02bb70591a",
                 "shasum": ""
             },
             "require": {
@@ -1770,13 +1771,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/10.0.5"
+                "source": "https://github.com/drupal/core/tree/10.0.7"
             },
-            "time": "2023-03-15T14:30:13+00:00"
+            "time": "2023-03-24T16:45:21+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "10.0.5",
+            "version": "10.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1820,13 +1821,13 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.0.5"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.0.7"
             },
             "time": "2023-03-09T21:24:32+00:00"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "10.0.5",
+            "version": "10.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -1861,22 +1862,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/10.0.5"
+                "source": "https://github.com/drupal/core-project-message/tree/10.0.7"
             },
             "time": "2022-07-01T08:33:05+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "10.0.5",
+            "version": "10.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "a4a5c5290ff90ce1eb2aa31dc4913cb29e9679a3"
+                "reference": "954185cbe080bb39d18d4bb1afe563b8352dc7c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/a4a5c5290ff90ce1eb2aa31dc4913cb29e9679a3",
-                "reference": "a4a5c5290ff90ce1eb2aa31dc4913cb29e9679a3",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/954185cbe080bb39d18d4bb1afe563b8352dc7c3",
+                "reference": "954185cbe080bb39d18d4bb1afe563b8352dc7c3",
                 "shasum": ""
             },
             "require": {
@@ -1884,7 +1885,7 @@
                 "composer/semver": "~3.3.2",
                 "doctrine/annotations": "~1.13.3",
                 "doctrine/lexer": "~1.2.3",
-                "drupal/core": "10.0.5",
+                "drupal/core": "10.0.7",
                 "egulias/email-validator": "~3.2.1",
                 "guzzlehttp/guzzle": "~7.5.0",
                 "guzzlehttp/promises": "~1.5.2",
@@ -1940,9 +1941,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/10.0.5"
+                "source": "https://github.com/drupal/core-recommended/tree/10.0.7"
             },
-            "time": "2023-03-15T14:30:13+00:00"
+            "time": "2023-03-24T16:45:21+00:00"
         },
         {
             "name": "drupal/devel",
@@ -2244,7 +2245,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/openchurch_theme.git",
-                "reference": "96aeb6964579e516723deb744bf2ce9520be4a30"
+                "reference": "159b52e478c4719fb62776d6d8b79e6d35016e76"
             },
             "require": {
                 "drupal/core": "^8 || ^9 || ^10",
@@ -2256,8 +2257,8 @@
                     "dev-3.0.x": "3.0.x-dev"
                 },
                 "drupal": {
-                    "version": "3.0.0-alpha2+1-dev",
-                    "datestamp": "1674175865",
+                    "version": "3.0.0-alpha3+1-dev",
+                    "datestamp": "1679622020",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
