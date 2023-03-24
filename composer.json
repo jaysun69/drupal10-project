@@ -23,6 +23,7 @@
         "drupal/devel": "^5.1",
         "drupal/openchurch_core": "dev-3.0.x",
         "drupal/openchurch_theme": "dev-3.0.x",
+        "drupal/project_browser": "^1.0@beta",
         "drush/drush": "^11.5.1"
     },
     "conflict": {
