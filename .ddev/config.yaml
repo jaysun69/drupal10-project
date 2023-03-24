@@ -1,4 +1,4 @@
-name: openchurch10
+name: drupal10
 type: drupal10
 docroot: web
 php_version: "8.1"
