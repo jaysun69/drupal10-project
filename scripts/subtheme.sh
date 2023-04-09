@@ -1,4 +1,4 @@
-cd web/themes/custom
+cd ../web/themes/custom
 export CUSTOM_BARRIO=custom_barrio # change this to your custom theme_name
 cp -r ../contrib/bootstrap_barrio/subtheme $CUSTOM_BARRIO
 cd $CUSTOM_BARRIO
