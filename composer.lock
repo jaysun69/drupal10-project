@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7bb28a94f6ad849650b0b8a87ebd94e",
+    "content-hash": "0cd86f44975729305813c859a1abc731",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1449,6 +1449,141 @@
             "time": "2023-02-03T11:13:07+00:00"
         },
         {
+            "name": "drupal/admin_toolbar",
+            "version": "3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/admin_toolbar.git",
+                "reference": "3.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-3.3.0.zip",
+                "reference": "3.3.0",
+                "shasum": "8e61fba9c9d83a94a844cff96d00871878a7eb98"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "require-dev": {
+                "drupal/admin_toolbar_tools": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.3.0",
+                    "datestamp": "1669567837",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Wilfrid Roze (eme)",
+                    "homepage": "https://www.drupal.org/u/eme",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Romain Jarraud (romainj)",
+                    "homepage": "https://www.drupal.org/u/romainj",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Adrian Cid Almaguer (adriancid)",
+                    "homepage": "https://www.drupal.org/u/adriancid",
+                    "email": "adriancid@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Mohamed Anis Taktak (matio89)",
+                    "homepage": "https://www.drupal.org/u/matio89",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "matio89",
+                    "homepage": "https://www.drupal.org/user/2320090"
+                },
+                {
+                    "name": "Musa.thomas",
+                    "homepage": "https://www.drupal.org/user/1213824"
+                },
+                {
+                    "name": "romainj",
+                    "homepage": "https://www.drupal.org/user/370706"
+                }
+            ],
+            "description": "Provides a drop-down menu interface to the core Drupal Toolbar.",
+            "homepage": "http://drupal.org/project/admin_toolbar",
+            "keywords": [
+                "Drupal",
+                "Toolbar"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/admin_toolbar",
+                "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/bootstrap_barrio",
+            "version": "5.5.10",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bootstrap_barrio.git",
+                "reference": "5.5.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-5.5.10.zip",
+                "reference": "5.5.10",
+                "shasum": "4015cae184be99d08329878e609b814700a73e60"
+            },
+            "require": {
+                "drupal/core": "^9.4 || ^10",
+                "twbs/bootstrap": "^5.0.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "5.5.10",
+                    "datestamp": "1679769012",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alberto Siles",
+                    "homepage": "https://www.drupal.org/user/827704",
+                    "email": "alberto@siles.pe"
+                },
+                {
+                    "name": "Ricardo.Castaneda",
+                    "homepage": "https://www.drupal.org/user/3520894"
+                },
+                {
+                    "name": "WillAcon",
+                    "homepage": "https://www.drupal.org/user/2824325"
+                }
+            ],
+            "description": "Bootstrap 5 base theme.",
+            "homepage": "https://www.drupal.org/project/bootstrap_barrio",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bootstrap_barrio"
+            }
+        },
+        {
             "name": "drupal/clientside_validation",
             "version": "4.0.2",
             "source": {
@@ -2075,6 +2210,120 @@
             ]
         },
         {
+            "name": "drupal/gin_lb",
+            "version": "1.0.0-rc3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/gin_lb.git",
+                "reference": "1.0.0-rc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/gin_lb-1.0.0-rc3.zip",
+                "reference": "1.0.0-rc3",
+                "shasum": "a749e106f0b0c57617d60ae37f7db7e6268f4fd7"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10",
+                "drupal/gin_toolbar": "*"
+            },
+            "require-dev": {
+                "composer/installers": "^1.2",
+                "cweagans/composer-patches": "~1.4",
+                "drupal/core-composer-scaffold": "^8.0",
+                "drupal/core-dev": "^8.0",
+                "drupal/core-recommended": "~10",
+                "drupal/field_group": "3.x-dev@dev",
+                "drupal/gin": "^3.0@rc",
+                "drush/drush": "~11",
+                "openeuropa/task-runner": "~2.0.0-alpha1",
+                "phpro/grumphp": "~1.5",
+                "phpspec/prophecy-phpunit": "^2.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-rc3",
+                    "datestamp": "1679077285",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                },
+                "enable-patching": false,
+                "composer-exit-on-patch-failure": true,
+                "drupal-scaffold": {
+                    "locations": {
+                        "web-root": "build/"
+                    }
+                },
+                "installer-paths": {
+                    "build/core": [
+                        "type:drupal-core"
+                    ],
+                    "build/modules/contrib/{$name}": [
+                        "type:drupal-module"
+                    ],
+                    "build/profiles/contrib/{$name}": [
+                        "type:drupal-profile"
+                    ],
+                    "build/themes/contrib/{$name}": [
+                        "type:drupal-theme"
+                    ],
+                    "build/libraries/{$name}": [
+                        "type:drupal-library"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\gin_lb\\": "./src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Drupal\\Tests\\gin_lb\\": "./tests/src"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "scripts": {
+                "post-install-cmd": [
+                    "./vendor/bin/run drupal:site-setup"
+                ],
+                "post-update-cmd": [
+                    "./vendor/bin/run drupal:site-setup"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Wiedemann",
+                    "homepage": "https://www.drupal.org/user/861002",
+                    "email": "christian.wiedemann@key-tec.de"
+                },
+                {
+                    "name": "Duwid",
+                    "homepage": "https://www.drupal.org/user/2693877"
+                },
+                {
+                    "name": "sch4lly",
+                    "homepage": "https://www.drupal.org/user/856550"
+                }
+            ],
+            "description": "Gin Layout Builder",
+            "homepage": "https://www.drupal.org/project/gin_lb",
+            "keywords": [
+                "drupal",
+                "ui",
+                "web"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/gin_lb"
+            }
+        },
+        {
             "name": "drupal/gin_toolbar",
             "version": "1.0.0-rc1",
             "source": {
@@ -2190,109 +2439,6 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/linkit",
                 "issues": "http://drupal.org/project/linkit"
-            }
-        },
-        {
-            "name": "drupal/openchurch_core",
-            "version": "dev-3.0.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/openchurch_core.git",
-                "reference": "959f89586cbc6bdb8e503efffb7c116af7614a5a"
-            },
-            "require": {
-                "drupal/core": "^9.3 || ^10"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-3.0.x": "3.0.x-dev"
-                },
-                "drupal": {
-                    "version": "3.0.0-alpha2+2-dev",
-                    "datestamp": "1674683600",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Jay Callicott",
-                    "homepage": "https://www.drupal.org/user/42248",
-                    "role": "Developer"
-                }
-            ],
-            "description": "OpenChurch core configuration (blocks, content, views).",
-            "homepage": "https://www.drupal.org/project/openchurch_core",
-            "keywords": [
-                "Drupal",
-                "church"
-            ],
-            "support": {
-                "source": "https://git.drupalcode.org/project/openchurch_core",
-                "issues": "https://www.drupal.org/project/issues/openchurch_core"
-            }
-        },
-        {
-            "name": "drupal/openchurch_theme",
-            "version": "dev-3.0.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/openchurch_theme.git",
-                "reference": "159b52e478c4719fb62776d6d8b79e6d35016e76"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9 || ^10",
-                "drupal/openchurch_core": "*"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "branch-alias": {
-                    "dev-3.0.x": "3.0.x-dev"
-                },
-                "drupal": {
-                    "version": "3.0.0-alpha3+1-dev",
-                    "datestamp": "1679622020",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Jay Callicott",
-                    "homepage": "https://www.drupal.org/user/42248",
-                    "role": "Developer"
-                },
-                {
-                    "name": "mariohernandez",
-                    "homepage": "https://www.drupal.org/user/446544"
-                },
-                {
-                    "name": "tlattimore",
-                    "homepage": "https://www.drupal.org/user/624754"
-                }
-            ],
-            "description": "OpenChurch base theme.",
-            "homepage": "https://www.drupal.org/project/openchurch_theme",
-            "keywords": [
-                "Drupal",
-                "OpenChurch",
-                "Theme"
-            ],
-            "support": {
-                "source": "https://git.drupalcode.org/project/openchurch_theme"
             }
         },
         {
@@ -7042,6 +7188,56 @@
             "time": "2023-02-16T09:57:23+00:00"
         },
         {
+            "name": "twbs/bootstrap",
+            "version": "v5.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "cb021439c683d9805e2864c58095b92d405e9b11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/cb021439c683d9805e2864c58095b92d405e9b11",
+                "reference": "cb021439c683d9805e2864c58095b92d405e9b11",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v5.2.3"
+            },
+            "time": "2022-11-21T18:19:01+00:00"
+        },
+        {
             "name": "twig/twig",
             "version": "v3.5.1",
             "source": {
@@ -7167,9 +7363,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/gin": 5,
+        "drupal/gin_lb": 5,
         "drupal/linkit": 10,
-        "drupal/openchurch_core": 20,
-        "drupal/openchurch_theme": 20,
         "drupal/project_browser": 10,
         "drupal/webform": 10
     },
